@@ -3,7 +3,7 @@ import json
 
 yaml = """
 ---
-  foo: bar
+foo: bar
 """
 data = yaml.load(yaml)
 json = json.dumps(data)

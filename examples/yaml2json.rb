@@ -3,7 +3,7 @@ require 'yaml'
 
 yaml = <<-eos
 ---
-  foo: bar
+foo: bar
 eos
 
 data = YAML::load(yaml)
