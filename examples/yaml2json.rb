@@ -1,12 +1,12 @@
 require 'json'
 require 'yaml'
 
-yml = <<-eos
+yaml = <<-eos
 ---
   foo: bar
 eos
 
-data = YAML::load(yml)
+data = YAML::load(yaml)
 json = JSON.dump(data)
 
 puts json

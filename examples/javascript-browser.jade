@@ -10,11 +10,11 @@
         var YAML = window.YAML
           , json
           , data
-          , yml
+          , yaml
           ;
 
-        yml = '---&#92;n  foo: bar';
-        data = YAML.parse(yml);
+        yaml = '---&#92;n  foo: bar';
+        data = YAML.parse(yaml);
         json = JSON.stringify(data);
 
         console.log(json);

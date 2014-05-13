@@ -1,11 +1,11 @@
 import yaml
 import json
 
-yml = """
+yaml = """
 ---
   foo: bar
 """
-data = yaml.load(yml)
+data = yaml.load(yaml)
 json = json.dumps(data)
 
 print(json)

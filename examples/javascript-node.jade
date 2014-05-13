@@ -8,11 +8,11 @@
         var YAML = require('yamljs')
           , json
           , data
-          , yml
+          , yaml
           ;
 
-        yml = '---\n  foo: bar';
-        data = YAML.parse(yml);
+        yaml = '---\n  foo: bar';
+        data = YAML.parse(yaml);
         json = JSON.stringify(data);
 
         console.log(json);

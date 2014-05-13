@@ -7,13 +7,13 @@ jQuery(function () {
     ;
 
   $events.on('click', '.js-convert', function () {
-    var yml = $('.js-yml').val()
+    var yaml = $('.js-yaml').val()
       , data
       , json
       ;
 
     try {
-      data = YAML.parse(yml);
+      data = YAML.parse(yaml);
     } catch(e) {
       console.log(e);
       $('.js-json').val(

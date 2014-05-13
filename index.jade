@@ -32,10 +32,10 @@ html(lang="en")
         .span8
           .row
             .span4
-              h2 YML
+              h2 YAML
               //- TODO will need YMLLint
               p Paste your YAML here
-              textarea.span4.js-yml(rows="20").
+              textarea.span4.js-yaml(rows="20").
                 ---
                 foo: "bar"
                 baz: 
@@ -73,7 +73,7 @@ html(lang="en")
           .span12
             p Converting YAML to JSON is a two part process.
             p.
-              First you have to convert a string of YML into an object in whichever language you're using.
+              First you have to convert a string of YAML into an object in whichever language you're using.
               This process is referred to as to <strong>parse</strong> or to <strong>deserialize</strong>.
             p.
               Next you'll need to convert that object into a JSON string.
